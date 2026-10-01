@@ -17,4 +17,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit --allow-empty -m "chore: keep actions alive"
-          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+          git push https://x-access-token:${{ secrets.MIYOUQIAN_TOKEN }}@github.com/${{ github.repository }}.git
